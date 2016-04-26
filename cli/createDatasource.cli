@@ -1,0 +1,1 @@
+/subsystem=datasources/data-source="KitchensinkAngularJSBootstrapQuickstartDS":add(jndi-name="java:jboss/datasources/KitchensinkAngularJSBootstrapQuickstartDS",driver-name="postgresql",connection-url="jdbc:postgresql://@db@:5432/postgres",user-name="postgres",password="jax2016!")
