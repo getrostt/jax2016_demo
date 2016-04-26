@@ -28,7 +28,7 @@ def createStepFromImage(imageName, imageCnt) {
 
             def cliFiles = findFiles glob: '**/*.cli'
             for (int i = 0; i < cliFiles.size(); i++) {
-              runCli(cliFiles[i].name, "srv$imageCnt", 'db', "db$imageCnt")
+              runCli(cliFiles[i].path, "srv$imageCnt", 'db', "db$imageCnt")
             }
           }
 
