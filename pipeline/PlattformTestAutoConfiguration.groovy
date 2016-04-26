@@ -19,7 +19,7 @@ node {
 
         def cliFiles = findFiles glob: '**/*.cli'
         for (int i = 0; i < cliFiles.size(); i++) {
-          runCli(cliFiles[i].name, 'srv01', 'db', 'db1')
+          runCli(cliFiles[i].path, 'srv01', 'db', 'db1')
         }
       }
 
